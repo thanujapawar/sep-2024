@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 thanuja
+=======
+hello whatsup
+>>>>>>> 0e529437002dca47d0597f8602fafa39116418c1
  this is my file
 
 <h1> hello this is thanuja </h1>
