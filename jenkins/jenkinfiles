@@ -17,6 +17,16 @@ pipeline {
                     sh 'echo "Deploying the application"'
                 }
             }
+            stage('cpudetails'){
+                steps {
+                    sh '''
+                    lscpu
+
+            
+
+                     '''
+                }
+            }
         }
 
 }
