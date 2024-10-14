@@ -1,35 +1,21 @@
 pipeline {
-        agent {
-            label 'Dev'
-        }
-
-        stages {
-            stage('Build') {
-                steps {
-                    sh 'echo "Building the application"'
-                }
-            }
-            stage('Test') {
-                steps {
-                    sh 'echo "Running testing"'
-                }
-            }
-            stage('Deploy') {
-                steps {
-                    sh 'echo "Deploying the application"'
-                }
-            }
-            stage('cpudetails'){
-                steps {
-                    sh '''
-                    lscpu
-
-            
-
-                     '''
-                }
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                //
             }
         }
-
+        stage('Test') {
+            steps {
+                //
+            }
+        }
+        stage('Deploy') {
+            steps {
+                //
+            }
+        }
+    }
 }
 
